@@ -1,10 +1,18 @@
-zero to prod hack along
+Zero2prod read through... 
 
-i have not:
-implemented to faster lld linker
-had a really good look at the ymal
-disabled the license warning on deny
-investigated pricing for github action
-properly researched github actions yet
+Do I want to? 
+Implement a faster lld/zld linker? 
+Meh, could get messy. Wait.
 
-next up 3.4 our first integration test
+Todo do?
+Look at the ymal configs
+Disabled/hush the license warning - deny
+Read up on github actions
+
+Bookmarks
+[] Next up 3.4 our first integration test
+[] Step back at 3.8 and make some notes.
+[] Read ahead and around the crates and Actix more. 
+
+
+
