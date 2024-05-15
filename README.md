@@ -10,9 +10,9 @@ Disabled/hush the license warning - deny
 Read up on github actions
 
 Bookmarks
-[] Next up 3.4 our first integration test
-[] Step back at 3.8 and make some notes.
-[] Read ahead and around the crates and Actix more. 
+- [x] Next up 3.4 our first integration test
+- [ ] Step back at 3.8 and make some notes.
+- [ ] Read ahead and around the crates and Actix more. 
 
 
 
