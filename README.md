@@ -13,9 +13,10 @@ Recently
 - [x] 3.5.1 polishing
 - [x] 3.6 refocus
 - [x] 3.7.2 capturing our requirements as test
+- [x] 3.7.3 parsing form data from a POST request
 
 Todo
-- [ ] 3.7.3 parsing form data from a POST request
+- [ ] 3.7.3.1 extractors
 
 Bookmarks
 - [ ] Step back at 3.8 and make some notes
