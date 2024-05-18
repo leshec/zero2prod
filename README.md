@@ -14,9 +14,10 @@ Recently
 - [x] 3.6 refocus
 - [x] 3.7.2 capturing our requirements as test
 - [x] 3.7.3 parsing form data from a POST request
+- [x] 3.7.3.1 extractors - issue in progress
 
 Todo
-- [ ] 3.7.3.1 extractors - issue in progress
+- [ ] p58 create database (finally think i may have docker and postgres running
 
 Bookmarks
 - [ ] Step back at 3.8 and make some notes
