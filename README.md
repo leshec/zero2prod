@@ -19,7 +19,7 @@ Todo
 - [ ] Tests were failing. In lib.rs: extractor `web::Form<FormData>`use requires 
 impl Responder to return 200 ok, rather than return a HttResponse
 investigate. Tests pass with Responder.
-- [ ] 3.7.3.1 extractors
+- [ ] 3.7.3.1 extractors - issue in progress
 
 Bookmarks
 - [ ] Step back at 3.8 and make some notes
