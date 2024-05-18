@@ -16,6 +16,9 @@ Recently
 - [x] 3.7.3 parsing form data from a POST request
 
 Todo
+- [ ] Tests were failing. In lib.rs: extractor `web::Form<FormData>`use requires 
+impl Responder to return 200 ok, rather than return a HttResponse
+investigate. Tests pass with Responder.
 - [ ] 3.7.3.1 extractors
 
 Bookmarks

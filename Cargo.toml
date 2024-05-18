@@ -15,6 +15,7 @@ actix-web = "4"
 cargo-audit = "0.20.0"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 chrono = { version = "0.4.22", default-features = false, features = ["clock"] }
+serde = "1.0.115"
 
 [dev-dependencies]
 reqwest = "0.11"
