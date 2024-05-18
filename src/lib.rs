@@ -10,12 +10,12 @@ async fn health_check() -> HttpResponse {
 
 #[derive(serde::Deserialize)]
 struct FormData {
-    _email: String,
-    _name: String,
+    email: String,
+    name: String,
 }
 
 // Let's start simple: we always return a 200 ok
-async fn subscribe(_form: web::Form<FormData>) -> impl Responder {
+async fn subscribe(_form: web::Form<FormData>) -> HttpResponse {
     HttpResponse::Ok().finish()
 }
 
