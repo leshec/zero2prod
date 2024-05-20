@@ -5,8 +5,9 @@ Do I want to?
 - Look at the yml configs right now?
 
 Tools
-- [ ] Read up on github actions
-- [ ]use git comments better e.g. per change
+- [ ] read up on github actions
+- [ ] re-read on modules syntax and visibility etc
+- [ ] reflect on use of git comments. Look back and see.  
 
 Recently
 - [x] 3.5 implementing our first integration test
@@ -16,18 +17,19 @@ Recently
 - [x] 3.7.3 parsing form data from a POST request
 - [x] 3.7.3.1 extractors - issue in progress
 - [x] p58 create database (finally think i may have docker and postgres running
-- [x] Read ahead and around the crates and Actix more 
+- [x] read ahead and around the crates and Actix more 
+- [x] trying to get the db and docker started
 
 Todo
-- [ ] Read ahead and around the crates and Actix more 
+- [ ] more read ahead and around the crates and Actix more 
 - [ ] make my own notes to avoid headaches reproducing the docker, postgress, code interop
-- [ ] Step back at 3.8 and make some notes
+- [ ] step back at 3.8 and make some notes
 
 
 Bookmarks
-- [ ] 3.8.5 writing our first query, p62. 
-
+- [ ] circa p64
+- [ ] 3.8.5.2.2 reading a config / config management
 Notes:
-- [ ] make some start docker, db notes here...
+- [ ] make some start docker, db issues to remember and obsidian notes.
 
 
