@@ -24,4 +24,9 @@ Bookmarks
 - Read ahead and around the crates and Actix more 
 
 
+Notes:
+under 3.8.4.2.3
+db see page60 need to export db url and call sqlx migrate etc from the command line
+
+
 
