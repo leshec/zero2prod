@@ -1,5 +1,7 @@
 Zero2prod read through... 
 
+[![Rust](https://github.com/leshec/zero2prod/actions/workflows/general.yml/badge.svg)](https://github.com/leshec/zero2prod/actions/workflows/general.yml)
+
 Do I want to? 
 - Implement a faster lld/zld linker?  
 - Look at the yml configs right now? I am. 
