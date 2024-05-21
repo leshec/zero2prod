@@ -1,11 +1,15 @@
 Zero2prod read through... 
 
 Do I want to? 
-- Implement a faster lld/zld linker? 
-- Look at the yml configs right now?
+- Implement a faster lld/zld linker?  
+- Look at the yml configs right now? I am. 
 
 Tools
-- [ ] read up on github actions
+- [ ] postgress
+- [ ] docker
+- [ ] actix-web
+- [ ] yaml up
+- [ ] github actions
 - [ ] re-read on modules syntax and visibility etc
 - [ ] reflect on use of git comments. Look back and see.  
 
@@ -19,17 +23,21 @@ Recently
 - [x] p58 create database (finally think i may have docker and postgres running
 - [x] read ahead and around the crates and Actix more 
 - [x] trying to get the db and docker started
+- [x] make some start docker, db issues to remember and obsidian notes.
+- [x] 3.8.5.2.2 reading a config / config management
 
 Todo
-- [ ] more read ahead and around the crates and Actix more 
-- [ ] make my own notes to avoid headaches reproducing the docker, postgress, code interop
-- [ ] step back at 3.8 and make some notes
-
+- [ ] 3.8.5.3 connecting to postgress, p67
 
 Bookmarks
-- [ ] circa p64
-- [ ] 3.8.5.2.2 reading a config / config management
-Notes:
-- [ ] make some start docker, db issues to remember and obsidian notes.
+- [ ] add bookmarks to jump back to here
 
+Reading and research
+- [ ] read up on github actions
+- [ ] more read ahead and around the crates and Actix more 
+- [ ] make my own notes to avoid headaches reproducing the docker, postgress, code interop
+- [ ] step back at end 3.8 and make some notes
+
+Notes:
+- [ ] priority do some touring videos, reading on postgres 
 
