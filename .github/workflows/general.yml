@@ -34,7 +34,7 @@ jobs:
       # Label used to access the service container
         postgress:
         # Docker Hub image
-          image: postgres:14
+          image: postgres:17
           # Environment variables scoped only for the `postgres` element
           env: 
           POSTGRES_USER: postgres
@@ -108,7 +108,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:14
+        image: postgres:17
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: password
@@ -143,7 +143,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:14
+        image: postgres:17
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: password
@@ -152,7 +152,7 @@ jobs:
           - 5432:5432
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
       - name: Install postgresql-client
         run: sudo apt-get update && sudo apt-get install postgresql-client -y
