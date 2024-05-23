@@ -20,7 +20,6 @@ config = { version = "0.14.0", default-features = false, features = ["yaml"] }
 sqlx = { version = "0.7", default-features = false, features = ["runtime-tokio-rustls", "macros", "postgres", "uuid", "chrono", "migrate"] }
 uuid = { version = "1", features = ["v4"] }
 chrono = { version = "0.4.22", default-features = false, features = ["clock"] }
-sqlx-cli = "0.7.4"
 
 [dev-dependencies]
 reqwest = { version = "0.11", features = ["json"] }
