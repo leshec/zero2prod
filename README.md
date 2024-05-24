@@ -29,6 +29,15 @@ Recently
 - [x] 3.8.5.2.2 reading a config / config management
 
 Todo
+- [ ] fix big clippy not happy in tests:
+due to postgres failing as expected?
+seems to be pissed at sqlx-cli, which i mistakenly added to toml.
+it is a bin for command line, not a lib. tried fixing toml, tidying lock and target.
+is it the github general yaml. as clippy, test, run etc fine for cargo on the command line.
+check the general yaml config in github actions.
+else finish sorted the query and see if that fixes.
+
+
 - [ ] 3.8.5.3 connecting to postgress, p67
 
 Bookmarks
