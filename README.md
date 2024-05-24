@@ -27,18 +27,16 @@ Recently
 - [x] trying to get the db and docker started
 - [x] make some start docker, db issues to remember and obsidian notes.
 - [x] 3.8.5.2.2 reading a config / config management
+- [x] 3.8.5.3 connecting to postgress, p67
 
 Todo
 - [ ] fix big clippy not happy in tests:
 due to postgres failing as expected?
-seems to be pissed at sqlx-cli, which i mistakenly added to toml.
-it is a bin for command line, not a lib. tried fixing toml, tidying lock and target.
-is it the github general yaml. as clippy, test, run etc fine for cargo on the command line.
-check the general yaml config in github actions.
-else finish sorted the query and see if that fixes.
-
-
-- [ ] 3.8.5.3 connecting to postgress, p67
+CI clippy seems to be pissed at sqlx-cli installation requirement.
+i think either i have messed up config, or the programme is expected to
+fail at this point. Maybe perserver and come back to it if other tests passing. 
+- [ ] Pick up from 3.8.5.5, start at 3.9 on p70. 
+- [] Read up to chapter 4 before doing anything else.
 
 Bookmarks
 - [ ] add bookmarks to jump back to here
@@ -47,7 +45,7 @@ Reading and research
 - [ ] read up on github actions
 - [ ] more read ahead and around the crates and Actix more 
 - [ ] make my own notes to avoid headaches reproducing the docker, postgress, code interop
-- [ ] step back at end 3.8 and make some notes
+- [ ] step back at start of chap 4 and make some notes - seems a more natural spot
 
 Notes:
 - [ ] priority do some touring videos, reading on postgres 
